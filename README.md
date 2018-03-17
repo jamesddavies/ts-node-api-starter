@@ -1,7 +1,5 @@
 # TS-Node-API-Starter
 
----
-
 #### A starter for Node.js JSON REST APIs built with TypeScript.
 
 ---
@@ -15,7 +13,7 @@ Using:
 
 ---
 
-## Installation
+### Installation
 
 Clone the repository
 
@@ -39,7 +37,7 @@ Start:
 npm start
 ```
 
-## Folder structure
+### Folder structure
 
 .
 +-- src  
