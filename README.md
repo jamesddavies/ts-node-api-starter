@@ -37,23 +37,6 @@ Start:
 npm start
 ```
 
-### Folder structure
-
-|-- src\
-|&nbsp;&nbsp;&nbsp;&nbsp;-- config\
-|&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;-- config.ts\
-|&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;-- express.ts\  
-|&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;-- winston.ts\ 
-|&nbsp;&nbsp;&nbsp;&nbsp;-- controllers\
-|&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;index.controller.ts\
-|&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;utilities.controller.ts\
-|&nbsp;&nbsp;&nbsp;&nbsp;-- routes\
-|&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;index.route.ts\
-|&nbsp;&nbsp;&nbsp;&nbsp;-- tests\
-|&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;index.schema.ts\
-|&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;index.spec.ts\
-&nbsp;&nbsp;&nbsp;&nbsp;app.ts\
-
 ## License
 
 MIT
