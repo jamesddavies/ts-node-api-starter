@@ -2,7 +2,7 @@
 /node_modules
 
 # logs
-/logs
+/src/logs
 
 # misc
 .DS_Store
