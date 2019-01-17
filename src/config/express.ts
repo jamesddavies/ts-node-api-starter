@@ -4,13 +4,13 @@ import * as fs from 'fs'
 import * as bodyParser from 'body-parser'
 import * as morgan from 'morgan'
 import config from './config'
-import winston from './winston'
+import winston, { morganOption } from './winston'
 
 export default function() {
     var app: express.Express = express()
 
     //Logging
-    app.use(morgan('combined', { stream: winston.stream }))
+    app.use(morgan('combined', morganOption))
 
     //Body Parser
     app.use(bodyParser.json())

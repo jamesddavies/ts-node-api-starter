@@ -1,5 +1,6 @@
 import * as winston from 'winston'
 import * as path from 'path'
+import { Options } from 'morgan'
 
 var options = {
     file: {
@@ -41,9 +42,11 @@ const logger = winston.createLogger({
     exitOnError: false
 })
 
-logger.stream = {
-    write: function(message: any, encoding: any) {
-        logger.info(message);
+export const morganOption: Options = {
+    stream: {
+        write: (message: string) => {
+            logger.info(message);
+        }
     }
 }
 

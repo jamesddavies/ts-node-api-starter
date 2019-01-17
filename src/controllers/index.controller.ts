@@ -1,7 +1,7 @@
 import { Request, Response } from 'express'
-import Utilities from './utilities.controller';
+import Utilities from '../helpers/Utilities';
 
-export default class IndexController extends Utilities {
+export default class IndexController {
 
     //GET functions
 
